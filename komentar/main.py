@@ -9,4 +9,4 @@ ini juga komentar,
 tapi multi-bari
 """
 
-print("tetap semangat 🚀")
+"""ini adalah komentar"""
