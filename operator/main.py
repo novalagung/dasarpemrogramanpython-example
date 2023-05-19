@@ -86,23 +86,29 @@ print("id_data_1:", id_data_1)  # 19441xxxxxxxx
 
 #%% operator membership
 
-# membership check in list
 sample_list = [2, 3, 4]
-print(3 in sample_list) # prints False
+is_3_exists = 3 in sample_list
+print(is_3_exists)
+# False
 
-# membership check in tuple
-sample_tuple = ("hello", "rust")
-print("hello" in sample_tuple) # prints True
+sample_tuple = ("hello", "python")
+is_hello_exists = "hello" in sample_tuple
+print(is_hello_exists)
+# True
 
-# membership check in dictionary
 sample_dict = { "nama": "noval", "age": 12 }
-print("nama" in sample_dict) # True
+is_key_nama_exists = "nama" in sample_dict
+print(is_key_nama_exists)
+# True
 
-# membership check in sets
 sample_set = { "sesuk", "preiiii" }
-print("preiiii" in sample_set) # True
+is_prei = "preiiii" in sample_set
+print(is_prei)
+# True
 
-# substring check
-print('orl' in 'Hello world') # True
+sample_str = 'Hello world'
+is_substring_exists = 'orl' in sample_str
+print(is_substring_exists)
+# True
 
 # %%
