@@ -1,4 +1,4 @@
-#%% numeric types
+# %% numeric types
 
 # int
 number_1 = 10000024
@@ -31,7 +31,13 @@ Preiiii
 '''
 print(string_4)
 
-#%% bool
+string_5 = '''\
+Sesuk
+Preiiii
+'''
+print(string_5)
+
+# %% bool
 
 bool_1 = True
 print(bool_1)

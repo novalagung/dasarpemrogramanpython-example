@@ -1,4 +1,4 @@
-#%% operator aritmatika
+# %% operator aritmatika
 
 num = 2 + 2
 print("2 + 2 = %d" % (num))
@@ -21,7 +21,7 @@ print("7 %% 4 = %d" % (num))
 num = 3 ** 2
 print("3 ** 2 = %d" % (num))
 
-#%% operator assignment
+# %% operator assignment
 
 num_1 = 12
 num_2 = 24
@@ -32,7 +32,7 @@ num_3 = num_1 + num_2
 print(num_3)
 # output: 24
 
-#%% operator perbandingan
+# %% operator perbandingan
 
 res = 4 == 5
 print("4 == 5 =", res)
@@ -52,7 +52,7 @@ print("5 >= 5 =", res)
 res = 4 <= 5
 print("4 <= 5 =", res)
 
-#%% operator logika
+# %% operator logika
 
 res = (4 == 5) and (2 != 3)
 print("(4 == 5) and (2 != 3) =", res)
@@ -63,7 +63,7 @@ print("(4 == 5) and (2 != 3) =", res)
 res = not (2 == 3)
 print("not 2 == 3 =", res)
 
-#%% operator identity
+# %% operator identity
 
 num_1 = 100001
 num_2 = 100001
@@ -72,19 +72,19 @@ res = num_1 is num_2
 print("num_1 is num_2 =", res)
 print("id(num_1): %s, id(num_2): %s" % (id(num_1), id(num_2)))
 
-#%% fungsi `print()` tanpa output formatting
+# %% fungsi `print()` tanpa output formatting
 
 print("message: %s %s %s" % ("hello", "python", "learner"))
 print("message:", "hello", "python", "learner")
 
-#%% fungsi `id()`
+# %% fungsi `id()`
 
 data_1 = "hello world"
 id_data_1 = id(data_1)
 print("data_1:", data_1)        # hello world
 print("id_data_1:", id_data_1)  # 19441xxxxxxxx
 
-#%% operator membership
+# %% operator membership
 
 sample_list = [2, 3, 4]
 is_3_exists = 3 in sample_list

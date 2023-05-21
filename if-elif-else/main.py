@@ -1,4 +1,4 @@
-#%% if
+# %% if
 
 grade = 100
 
@@ -9,7 +9,7 @@ if grade == 90:
     print("ok")
     print("keep working hard!")
 
-#%% if elif
+# %% if elif
 
 str_input = input('Enter your grade: ')
 grade = int(str_input)
@@ -21,18 +21,18 @@ elif grade >= 85:
 elif grade >= 65:
     print("passed the exam")
 
-#%% input
+# %% input
 
 str_input = input('Enter your grade: ')
 print("inputan user:", str_input, type(str_input))
 
-#%% type conversion
+# %% type conversion
 
 str_input = input('Enter your grade: ')
 grade = int(str_input)
 print("inputan user:", grade, type(grade))
 
-#%% if elif else
+# %% if elif else
 
 str_input = input('Enter your grade: ')
 grade = int(str_input)
@@ -46,7 +46,7 @@ elif grade >= 65:
 else:
     print("below the passing grade")
 
-#%% netsted if
+# %% netsted if
 
 str_input = input('Enter your grade: ')
 grade = int(str_input)
@@ -64,7 +64,7 @@ elif grade >= 65:
 else:
     print("below the passing grade")
 
-#%% logical operator
+# %% logical operator
 
 grade = int(input('Enter your current grade: '))
 prev_grade = int(input('Enter your previous grade: '))
@@ -81,7 +81,7 @@ else:
 if (grade >= 65 and not prev_grade >= 65) or (not grade >= 65 and prev_grade >= 65):
     print("at least you passed one exam. good job!")
 
-#%% one line
+# %% one line
 
 grade = int(input('Enter your grade: '))
 
