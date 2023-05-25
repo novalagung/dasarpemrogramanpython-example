@@ -1,8 +1,6 @@
-# %%
-from typing import Final
+# %% A.5.2. Tipe class typing.Final
 
-PI: Final = 3.14
-print("pi: %f" % (PI))
+from typing import Final
 
 TOTAL_MONTH: Final[int] = 12
 print("total month: %f" % (TOTAL_MONTH))
