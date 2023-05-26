@@ -1,14 +1,26 @@
+# A.12.4. List dari data range
 
-# %% A.12.4. Nested list
+# %% ◉ Konversi range ke list
 
-matrix = [
-    [0, 1, 0, 1, 0],
-    [1, 1, 1, 0, 0],
-    [0, 0, 0, 1, 1],
-    [0, 1, 1, 1, 0],
-]
+range_1 = range(0, 10)
+list_1 = list(range_1)
+print(list_1)
 
-for row in matrix:
-    for cel in row:
-        print(cel, end=" ")
-    print()
+range_2 = range(0, 22, 3)
+list_2 = list(range_2)
+print(list_2)
+
+range_3 = range(100, 0, -10)
+list_3 = list(range_3)
+print(list_3)
+
+# %% ◉ Konversi string ke list
+
+alphabets = list('abcdefgh')
+print(alphabets)
+
+# %% ◉ Konversi tuple ke list
+
+tuple_1 = (1, 2, 3, 4)
+numbers = list(tuple_1)
+print(numbers)
