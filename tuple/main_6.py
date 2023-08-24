@@ -1,11 +1,17 @@
-# %% A.14.6. Fungsi `tuple()`
+# %% A.14.7. List dan tuple
 
-alphabets = tuple('abcdefgh')
-print(alphabets)
+data = [
+    ("ultra instinc shaggy", 1, True, ['detective', 'saiyan']),
+    ("nightwing", 3, True, ['teen titans', 'bat family']),
+]
 
-numbers = tuple([2, 3, 4, 5])
-print(numbers)
+data.append(("noob saibot", 6, False, ['brotherhood of shadow']))
+data.append(("tifa lockhart", 2, True, ['avalanche']))
 
-r = range(0, 3)
-rtuple = tuple(r)
-print(rtuple)
+print("name | rank | win | affliation")
+print("------------------------------")
+
+for row in data:
+    for cell in row:
+        print(cell, end=" | ")
+    print()

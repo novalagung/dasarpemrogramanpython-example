@@ -1,4 +1,4 @@
-# %% A.14.1. Penerapan tuple
+# %% A.14.2. Penerapan tuple
 
 tuple_1 = (2, 3, 4, "hello python", False)
 

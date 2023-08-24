@@ -7,3 +7,9 @@ for e in list_1:
 list_1 = [10, 70, 20]
 for i in range(0, len(list_1)):
     print("index:", i, "elem:", list_1[i])
+
+# %% ◉ Fungsi `enumerate()`
+
+list_1 = [10, 70, 20]
+for i, v in enumerate(list_1):
+    print("index:", i, "elem:", v)

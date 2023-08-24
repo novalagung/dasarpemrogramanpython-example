@@ -1,4 +1,4 @@
-# %% A.14.2. Mengakses element tuple
+# %% A.14.3. Mengakses element tuple
 
 tuple_1 = (2, 3, 4, "hello python", False)
 

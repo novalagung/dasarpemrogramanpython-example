@@ -1,17 +1,8 @@
-# %% A.14.5. List dan tuple
+# %% A.14.6. Nested tuple
 
-data = [
-    ("ultra instinc shaggy", 1, True, ['detective', 'saiyan']),
-    ("nightwing", 3, True, ['teen titans', 'bat family']),
-]
+tuple_nested = ((0, 2), (0, 3), (2, 2), (2, 4))
 
-data.append(("noob saibot", 6, False, ['brotherhood of shadow']))
-data.append(("tifa lockhart", 2, True, ['avalanche']))
-
-print("name | rank | win | affliation")
-print("------------------------------")
-
-for row in data:
+for row in tuple_nested:
     for cell in row:
-        print(cell, end=" | ")
+        print(cell, end=" ")
     print()

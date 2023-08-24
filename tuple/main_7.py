@@ -1,19 +1,11 @@
-# A.14.7. Tuple *packing* dan *unpacking*
+# %% A.14.8. Fungsi `tuple()`
 
-# %% ◉ Tuple *packing*
+alphabets = tuple('abcdefgh')
+print(alphabets)
 
-first_name = "aerith gainsborough"
-rank = 11
-win = False
+numbers = tuple([2, 3, 4, 5])
+print(numbers)
 
-row_data = (first_name, rank, win)
-# row_data = first_name, rank, win
-
-print(row_data)
-
-# %% ◉ Tuple *unpacking*
-
-row_data = ('aerith gainsborough', 11, False)
-first_name, rank, win = row_data
-
-print(first_name, rank, win)
+r = range(0, 3)
+rtuple = tuple(r)
+print(rtuple)

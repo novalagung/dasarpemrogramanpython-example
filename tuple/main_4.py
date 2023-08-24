@@ -1,8 +1,9 @@
-# %% A.14.4. Nested tuple
+# %% A.14.5. Mengecek apakah element ada
 
-tuple_nested = ((0, 2), (0, 3), (2, 2), (2, 4))
+tuple_1 = (10, 70, 20)
+n = 70
 
-for row in tuple_nested:
-    for cell in row:
-        print(cell, end=" ")
-    print()
+if n in tuple_1:
+    print(n, "is exists")
+else:
+    print(n, "is NOT exists")
