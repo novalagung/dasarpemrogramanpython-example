@@ -100,6 +100,12 @@ x = list_3.pop()
 print('list_3:', list_3)
 print('removed element:', x)
 
+list_3 = [10, 70, 20, 70]
+print('len:', len(list_3), "data:", list_3)
+
+del list_3[1]
+print('len:', len(list_3), "data:", list_3)
+
 # %% ◉ Menghapus element pada index `i`
 
 list_3 = [10, 70, 20, 70]
