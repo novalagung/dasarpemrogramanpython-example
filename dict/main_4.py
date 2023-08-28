@@ -24,5 +24,8 @@ print("affliations:")
 for item in profile["affliations"]:
     print("  → %s (%s)" % (item["name"], item["affliation"]))
 
-print("  → %s (%s)" % (profile["affliations"][0]["name"], profile["affliations"][0]["affliation"]))
-print("  → %s (%s)" % (profile["affliations"][1]["name"], profile["affliations"][1]["affliation"]))
+value = profile["affliations"][0]["name"], profile["affliations"][0]["affliation"]
+print("  → %s (%s)" % (value))
+
+value = profile["affliations"][1]["name"], profile["affliations"][1]["affliation"]
+print("  → %s (%s)" % (value))

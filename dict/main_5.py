@@ -7,8 +7,8 @@ profile = {
     "is_female": False
 }
 
-print(profile.get("affliations")[0].get("name"))
+print(profile["affliations"][0]["name"])
 
-profile.get("affliations")[0]["name"] = "luigi steven"
+profile["affliations"][0]["name"] = "luigi steven"
 
-print(profile.get("affliations")[0].get("name"))
+print(profile["affliations"][0]["name"])

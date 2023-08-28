@@ -9,10 +9,10 @@ profile = {
 print(profile)
 
 profile = dict(
-    set= "id",
-    name= "john wick",
-    hobbies= ["playing with pencil"],
-    is_female= False,
+    set="id",
+    name="john wick",
+    hobbies=["playing with pencil"],
+    is_female=False,
 )
 print(profile)
 
