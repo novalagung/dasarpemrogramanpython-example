@@ -20,6 +20,11 @@ print(str)
 str = f"this is also a string in python"
 print(str)
 
+# %% string len()
+
+str = "hello python"
+print(len(str))
+
 # %% string concatenation
 
 str = "hello " "python"
@@ -78,10 +83,10 @@ if "py" in str:
 
 # %%
 
+print(chr(4))
+
 # chr()	Converts an integer to a character
 # ord()	Converts a character to an integer
-# len()	Returns the length of a string
-# str()	Returns a string representation of an object
 
 # %%
 
@@ -93,20 +98,6 @@ print(str.upper())
 str = "Hello Python"
 print(str.lower())
 print(str.swapcase())
-
-# s.count(<sub>[, <start>[, <end>]])
-
-# s.endswith(<suffix>[, <start>[, <end>]])
-
-# s.find(<sub>[, <start>[, <end>]])
-
-# s.index(<sub>[, <start>[, <end>]])
-
-# s.rfind(<sub>[, <start>[, <end>]])
-
-# s.rindex(<sub>[, <start>[, <end>]])
-
-# s.startswith(<prefix>[, <start>[, <end>]])
 
 # s.isalnum()
 
@@ -125,6 +116,20 @@ print(str.swapcase())
 # s.istitle()
 
 # s.isupper()
+
+# s.count(<sub>[, <start>[, <end>]])
+
+# s.endswith(<suffix>[, <start>[, <end>]])
+
+# s.find(<sub>[, <start>[, <end>]])
+
+# s.index(<sub>[, <start>[, <end>]])
+
+# s.rfind(<sub>[, <start>[, <end>]])
+
+# s.rindex(<sub>[, <start>[, <end>]])
+
+# s.startswith(<prefix>[, <start>[, <end>]])
 
 # s.center(<width>[, <fill>])
 
