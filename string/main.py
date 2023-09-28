@@ -1,39 +1,3 @@
-# %% string formatting
-
-name = "Aiden Pearce"
-occupation = "IT support"
-
-str = f"hello, my name is {name}, I'm an {occupation}"
-print(str)
-
-str = "hello, my name is {name}, I'm an {occupation}".format(name = name, occupation = occupation)
-print(str)
-
-str = "hello, my name is {0}, I'm an {1}".format(name, occupation)
-print(str)
-
-str = "hello, my name is {}, I'm an {}".format(name, occupation)
-print(str)
-
-# %% String elements
-
-str = "hello python"
-print(str[0])
-print(str[1])
-print(str[2])
-
-for c in str:
-    print(c)
-
-for i in range(0, len(str)):
-    print(str[i])
-
-# %% String slicing
-
-str = "hello python"
-print(str[1:5])
-print(str[7:])
-print(str[:4])
 
 # %%
 
@@ -48,20 +12,66 @@ print(str.swapcase())
 
 # %%
 
-str = "hello123"
-print(str.isalnum())
-str = "hello 123"
-print(str.isalnum())
+print("123abc".isalnum())
+print("abcdef".isalpha())
+print("123456".isdigit())
 
-str = "hello"
-print(str.isalpha())
-str = "hello123"
-print(str.isalpha())
+print(" ".isspace())
 
-str = "123"
-print(str.isdigit())
-str = "123four"
-print(str.isdigit())
+print("hello python".islower())
+print("Hello Python".istitle())
+print("HELLO PYTHON".isupper())
+
+# %%
+
+
+
+# s.isprintable()
+# s.isidentifier()
+
+# s.count(<sub>[, <start>[, <end>]])
+
+# s.endswith(<suffix>[, <start>[, <end>]])
+
+# s.find(<sub>[, <start>[, <end>]])
+
+# s.index(<sub>[, <start>[, <end>]])
+
+# s.rfind(<sub>[, <start>[, <end>]])
+
+# s.rindex(<sub>[, <start>[, <end>]])
+
+# s.startswith(<prefix>[, <start>[, <end>]])
+
+# s.center(<width>[, <fill>])
+
+# s.expandtabs(tabsize=8)
+
+# s.ljust(<width>[, <fill>])
+
+# s.lstrip([<chars>])
+
+# s.replace(<old>, <new>[, <count>])
+
+# s.rjust(<width>[, <fill>])
+
+# s.rstrip([<chars>])
+
+# s.strip([<chars>])
+
+# s.zfill(<width>)
+
+# s.join(<iterable>)
+
+# s.partition(<sep>)
+
+# s.rpartition(<sep>)
+
+# s.rsplit(sep=None, maxsplit=-1)
+
+# s.split(sep=None, maxsplit=-1)
+
+# s.splitlines([<keepends>])
 
 str = "hello world"
 print(str.islower())

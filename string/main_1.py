@@ -6,11 +6,7 @@ print(str)
 str = 'hello python'
 print(str)
 
-str = 'this is a "string" in python'
-print(str)
-
-str = "this is a \"string\" in python"
-print(str)
+# %% ◉ Multiline string
 
 str = "a multiline string\nin python"
 print(str)
@@ -19,10 +15,10 @@ str = """a multiline string
 in python"""
 print(str)
 
-# %% ◉ Mengecek lebar karakter string
+# %% ◉ Escape character
 
-str = "hello python"
-print("text:", str)
-print("length:", len(str))
+str = 'this is a "string" in python'
+print(str)
 
-# %%
+str = "this is a \"string\" in python"
+print(str)
