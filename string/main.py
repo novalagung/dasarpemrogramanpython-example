@@ -1,43 +1,3 @@
-# %% basic string
-str = "hello python"
-print(str)
-
-str = 'hello python'
-print(str)
-
-str = 'this is a "string" in python'
-print(str)
-
-str = "this is a \"string\" in python"
-print(str)
-
-str = """
-a multiline string
-in python
-"""
-print(str)
-
-str = f"this is also a string in python"
-print(str)
-
-# %% string len()
-
-str = "hello python"
-print(len(str))
-
-# %% string concatenation
-
-str = "hello " "python"
-print(str)
-
-str_one = "hello"
-str_two = "python"
-str = str_one + " " + str_two
-print(str)
-
-str = " ".join(["hello", "python"])
-print(str)
-
 # %% string formatting
 
 name = "Aiden Pearce"
@@ -75,19 +35,6 @@ print(str[1:5])
 print(str[7:])
 print(str[:4])
 
-# %% if - in
-
-str = "hello python"
-if "py" in str:
-    print(f"py is in {str}")
-
-# %%
-
-print(chr(4))
-
-# chr()	Converts an integer to a character
-# ord()	Converts a character to an integer
-
 # %%
 
 str = "hello python"
@@ -99,70 +46,111 @@ str = "Hello Python"
 print(str.lower())
 print(str.swapcase())
 
-# s.isalnum()
+# %%
 
-# s.isalpha()
+str = "hello123"
+print(str.isalnum())
+str = "hello 123"
+print(str.isalnum())
 
-# s.isdigit()
+str = "hello"
+print(str.isalpha())
+str = "hello123"
+print(str.isalpha())
 
-# s.isidentifier()
+str = "123"
+print(str.isdigit())
+str = "123four"
+print(str.isdigit())
 
-# s.islower()
+str = "hello world"
+print(str.islower())
+str = "Hello world"
+print(str.islower())
 
-# s.isprintable()
+str = "hello world"
+print(str.istitle())
+str = "Hello World"
+print(str.istitle())
+str = "Hello world"
+print(str.istitle())
 
-# s.isspace()
+str = "HELLO WORLD"
+print(str.isupper())
+str = "Hello World"
+print(str.isupper())
 
-# s.istitle()
+str = "\n"
+print(str.isspace())
+str = "\n\r"
+print(str.isspace())
+str = """
+"""
+print(str.isspace())
+str = "hello world\n"
+print(str.isspace())
 
-# s.isupper()
+# %%
 
-# s.count(<sub>[, <start>[, <end>]])
+str = "hello world"
+print("ello" in str)
 
-# s.endswith(<suffix>[, <start>[, <end>]])
+if "ello" in str:
+    print(f"py is in {str}")
 
-# s.find(<sub>[, <start>[, <end>]])
+str = "hello world"
+print(str.startswith("hell"))
+print(str.startswith("ello"))
 
-# s.index(<sub>[, <start>[, <end>]])
+str = "hello world"
+print(str.endswith("orld"))
+print(str.endswith("worl"))
 
-# s.rfind(<sub>[, <start>[, <end>]])
+str = "hello world"
+print(str.count("ello"))
 
-# s.rindex(<sub>[, <start>[, <end>]])
+str = "hello world"
+print(str.index("worl"))
+# // error on failure
 
-# s.startswith(<prefix>[, <start>[, <end>]])
+str = "hello world"
+print(str.rindex("worl"))
 
-# s.center(<width>[, <fill>])
+str = "hello world"
+print(str.find("worl"))
 
-# s.expandtabs(tabsize=8)
+str = "hello world"
+print(str.rfind("worl"))
 
-# s.ljust(<width>[, <fill>])
+str_old = "hello world"
+str_new = str_old.replace("world", "python")
+print(str_new)
 
-# s.lstrip([<chars>])
+str = """
+hello python
+"""
 
-# s.replace(<old>, <new>[, <count>])
+print(str)
+print(str.lstrip())
+print(str.rstrip())
+print(str.strip())
 
-# s.rjust(<width>[, <fill>])
-
-# s.rstrip([<chars>])
-
-# s.strip([<chars>])
-
-# s.zfill(<width>)
-
-# s.join(<iterable>)
+data = [1, 2, 3, 4]
+res = "-".join(data)
+print(res)
 
 # s.partition(<sep>)
-
 # s.rpartition(<sep>)
 
-# s.rsplit(sep=None, maxsplit=-1)
-
 # s.split(sep=None, maxsplit=-1)
-
+# s.rsplit(sep=None, maxsplit=-1)
 # s.splitlines([<keepends>])
 
+# s.center(<width>[, <fill>])
+# s.ljust(<width>[, <fill>])
+# s.rjust(<width>[, <fill>])
 
-
-
+# str.zfill(<width>)
+# s.expandtabs(tabsize=8)
 
 # %%
