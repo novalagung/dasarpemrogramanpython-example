@@ -1,14 +1,8 @@
-# %% basic string
+# %% A.17.1. Penerapan string
 str = "hello python"
 print(str)
 
 str = 'hello python'
-print(str)
-
-str = 'this is a "string" in python'
-print(str)
-
-str = "this is a \"string\" in python"
 print(str)
 
 str = """
@@ -17,28 +11,13 @@ in python
 """
 print(str)
 
-str = f"this is also a string in python"
+str = 'this is a "string" in python'
 print(str)
 
-# %% string len()
-
-str = "hello python"
-print(len(str))
-
-# %% string concatenation
-
-str = "hello " "python"
+str = "this is a \"string\" in python"
 print(str)
 
-str_one = "hello"
-str_two = "python"
-str = str_one + " " + str_two
-print(str)
-
-str = " ".join(["hello", "python"])
-print(str)
-
-# %% string formatting
+# %% A.17.2. String formatting
 
 name = "Aiden Pearce"
 occupation = "IT support"
@@ -54,6 +33,24 @@ print(str)
 
 str = "hello, my name is {}, I'm an {}".format(name, occupation)
 print(str)
+
+# %% string concatenation
+
+str = "hello " "python"
+print(str)
+
+str_one = "hello"
+str_two = "python"
+str = str_one + " " + str_two
+print(str)
+
+str = " ".join(["hello", "python"])
+print(str)
+
+# %% string len()
+
+str = "hello python"
+print(len(str))
 
 # %% String elements
 
@@ -99,23 +96,24 @@ str = "Hello Python"
 print(str.lower())
 print(str.swapcase())
 
-# s.isalnum()
+# %%
 
-# s.isalpha()
+print("123abc".isalnum())
+print("abcdef".isalpha())
+print("123456".isdigit())
 
-# s.isdigit()
+print(" ".isspace())
 
-# s.isidentifier()
+print("hello python".islower())
+print("Hello Python".istitle())
+print("HELLO PYTHON".isupper())
 
-# s.islower()
+# %%
+
+
 
 # s.isprintable()
-
-# s.isspace()
-
-# s.istitle()
-
-# s.isupper()
+# s.isidentifier()
 
 # s.count(<sub>[, <start>[, <end>]])
 
