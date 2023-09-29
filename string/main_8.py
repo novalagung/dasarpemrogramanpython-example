@@ -1,35 +1,24 @@
-# %% A.17.8. Operasi pencarian string & substring
+# %% A.17.9. Operasi string lainnya
 
-# %% ◉ Pengecekan string menggunakan keyword in
+# %% ◉ Replace substring
 
-str = "hello world"
-print("ello" in str)
+str_old = "hello world"
+str_new = str_old.replace("world", "python")
+print(str_new)
 
-if "ello" in str:
-    print(f"py is in {str}")
+# %% ◉ Trim / strip
 
-# %% ◉ Pengecekan awalan dan akhiran string
+str = """
+hello python
+"""
 
-str = "hello world"
-print(str.startswith("hell"))
-print(str.startswith("ello"))
+print(f"--{str}--")
+print(f"--{str.lstrip()}--")
+print(f"--{str.rstrip()}--")
+print(f"--{str.strip()}--")
 
-str = "hello world"
-print(str.endswith("orld"))
-print(str.endswith("worl"))
+# %% ◉ Join string
 
-str = "hello world"
-print(str.count("ello"))
-
-str = "hello world"
-print(str.index("worl"))
-# // error on failure
-
-str = "hello world"
-print(str.rindex("worl"))
-
-str = "hello world"
-print(str.find("worl"))
-
-str = "hello world"
-print(str.rfind("worl"))
+data = ["hello", "world", "abcdef"]
+res = "-".join(data)
+print(res)

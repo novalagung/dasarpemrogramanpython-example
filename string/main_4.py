@@ -1,19 +1,12 @@
-# %% A.17.4. String formatting
+# %% A.17.5. Penggabungan string (concatenation)
 
-str = f"this is also a string in python"
+str = "hello " "python"
 print(str)
 
-name = "Aiden Pearce"
-occupation = "IT support"
-
-str = f"hello, my name is {name}, I'm an {occupation}"
+str_one = "hello"
+str_two = "python"
+str = str_one + " " + str_two
 print(str)
 
-str = "hello, my name is {name}, I'm an {occupation}".format(name = name, occupation = occupation)
-print(str)
-
-str = "hello, my name is {0}, I'm an {1}".format(name, occupation)
-print(str)
-
-str = "hello, my name is {}, I'm an {}".format(name, occupation)
+str = " ".join(["hello", "python"])
 print(str)
