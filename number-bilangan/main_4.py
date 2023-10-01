@@ -10,6 +10,11 @@ print(f"angka real: {r}")
 i = angka_complex.imag
 print(f"angka imajiner: {i}")
 
+# %% ◉ Fungsi `complex()`
+
+angka_complex = complex(120, 3)
+print(f"angka complex: {angka_complex}")
+
 # %% ◉ Operasi aritmatika bilangan *complex*
 
 cmp1 = 120-2j
