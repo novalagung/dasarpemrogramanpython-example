@@ -2,18 +2,18 @@
 
 # %% Fungsi `ord()`
 
-str = "안"
-codePoint = ord(str)
-print(f'code point of {str} in decimal: {codePoint}')
+text = "안"
+codePoint = ord(text)
+print(f'code point of {text} in decimal: {codePoint}')
 
-str = "N"
-codePoint = ord(str)
-print(f'code point of {str} in decimal: {codePoint}')
+text = "N"
+codePoint = ord(text)
+print(f'code point of {text} in decimal: {codePoint}')
 
-str = "안"
-codePoint = ord(str)
-print(f'code point of {str} in decimal: {codePoint}')
-print(f'code point of {str} in hex: {hex(codePoint)}')
+text = "안"
+codePoint = ord(text)
+print(f'code point of {text} in decimal: {codePoint}')
+print(f'code point of {text} in hex: {hex(codePoint)}')
 
 # %% Fungsi `chr()`
 
