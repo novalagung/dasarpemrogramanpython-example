@@ -2,20 +2,20 @@
 
 # %% ◉ Replace substring
 
-str_old = "hello world"
-str_new = str_old.replace("world", "python")
-print(str_new)
+text_old = "hello world"
+text_new = text_old.replace("world", "python")
+print(text_new)
 
 # %% ◉ Trim / strip
 
-str = """
+text = """
 hello python
 """
 
-print(f"--{str}--")
-print(f"--{str.lstrip()}--")
-print(f"--{str.rstrip()}--")
-print(f"--{str.strip()}--")
+print(f"--{text}--")
+print(f"--{text.lstrip()}--")
+print(f"--{text.rstrip()}--")
+print(f"--{text.strip()}--")
 
 # %% ◉ Join string
 

@@ -2,26 +2,26 @@
 
 # %% ◉ Mengecek lebar karakter string
 
-str = "hello python"
-print("text:", str)
-print("length:", len(str))
+text = "hello python"
+print("text:", text)
+print("length:", len(text))
 
 # %% String elements
 
-str = "hello python"
-print(str[0])
-print(str[1])
-print(str[2])
+text = "hello python"
+print(text[0])
+print(text[1])
+print(text[2])
 
-for c in str:
+for c in text:
     print(c)
 
-for i in range(0, len(str)):
-    print(str[i])
+for i in range(0, len(text)):
+    print(text[i])
 
 # %% Slicing string
 
-str = "hello python"
-print(str[1:5])
-print(str[7:])
-print(str[:4])
+text = "hello python"
+print(text[1:5])
+print(text[7:])
+print(text[:4])

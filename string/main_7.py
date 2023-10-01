@@ -2,11 +2,11 @@
 
 # %% ◉ Pengecekan string menggunakan keyword in
 
-str = "hello world"
-print("ello" in str)
+text = "hello world"
+print("ello" in text)
 
-if "ello" in str:
-    print(f"py is in {str}")
+if "ello" in text:
+    print(f"py is in {text}")
 
 # %% ◉ Pengecekan awalan dan akhiran string
 
@@ -20,15 +20,15 @@ print("hello world".count("ello"))
 
 # %% ◉ Pencarian index substring
 
-str = "hello world hello world"
+text = "hello world hello world"
 
-print(str.count("ello"))
+print(text.count("ello"))
 
 substring = "worl"
-print(str.index(substring))
-print(str.rindex(substring), str[18:])
+print(text.index(substring))
+print(text.rindex(substring), text[18:])
 
-print(str.find("worl"))
-print(str.rfind("worl"))
+print(text.find("worl"))
+print(text.rfind("worl"))
 
 # %%

@@ -1,24 +1,24 @@
 # %% A.17.1. Penerapan string
 
-str = "hello python"
-print(str)
+text = "hello python"
+print(text)
 
-str = 'hello python'
-print(str)
+text = 'hello python'
+print(text)
 
 # %% ◉ Multiline string
 
-str = "a multiline string\nin python"
-print(str)
+text = "a multiline string\nin python"
+print(text)
 
-str = """a multiline string
+text = """a multiline string
 in python"""
-print(str)
+print(text)
 
 # %% ◉ Escape character
 
-str = 'this is a "string" in python'
-print(str)
+text = 'this is a "string" in python'
+print(text)
 
-str = "this is a \"string\" in python"
-print(str)
+text = "this is a \"string\" in python"
+print(text)

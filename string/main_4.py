@@ -1,12 +1,18 @@
 # %% A.17.5. Penggabungan string (concatenation)
 
-str = "hello " "python"
-print(str)
+text = "hello " "python"
+print(text)
 
-str_one = "hello"
-str_two = "python"
-str = str_one + " " + str_two
-print(str)
+text_one = "hello"
+text_two = "python"
+text = text_one + " " + text_two
+print(text)
 
-str = " ".join(["hello", "python"])
-print(str)
+text = "hello"
+number = 123
+yes = True
+message = text + " " + str(number) + " " + str(yes)
+print(message)
+
+text = " ".join(["hello", "python"])
+print(text)
