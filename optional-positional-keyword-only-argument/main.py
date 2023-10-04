@@ -1,33 +1,5 @@
 # %%
 
-def say_hello():
-    print("hello")
-
-say_hello()
-
-# %%
-
-def calculate_circle_area(r):
-    area = 3.14 * (r ** 2)
-    return area
-
-def calculate_circle_circumference(r):
-    return 2 * 3.14 * r
-
-area = calculate_circle_area(788)
-print(f"area: {area:.2f}")
-
-circumference = calculate_circle_circumference(788)
-print(f"circumference: {circumference:.2f}")
-
-# %%
-
-# need to complete sometime later
-def transpose_matrix(matrix):
-    pass
-
-# %%
-
 def transpose_matrix(matrix):
     transposed = []
     for i in range(4):
