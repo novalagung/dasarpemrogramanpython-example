@@ -22,9 +22,19 @@ print_data("sesuk prei", 2023, phone="nokia 3315", networks=["GSM", "TDMA"])
 
 # %% ◉ Kombinasi positional argument, args dan kwargs
 
-def print_all(message, *numbers, **others):
+def print_all(message, *params, **others):
     print(f"message: {message}")
-    print(f"numbers: {numbers}")
+    print(f"params: {params}")
     print(f"others: {others}")
 
 print_all("hello world", 1, True, ("yesn't", "nope"), name="nokia 3310", discontinued=True, year_released=2000)
+
+# %% ◉ Kombinasi positional argument, args, keyword argument, dan kwargs
+
+def print_all(message, *params, say_something, **others):
+    print(f"message: {message}")
+    print(f"params: {params}")
+    print(f"say_something: {say_something}")
+    print(f"others: {others}")
+
+print_all("hello world", 1, True, ("yesn't", "nope"), say_something="how are you", name="nokia 3310", discontinued=True, year_released=2000)
