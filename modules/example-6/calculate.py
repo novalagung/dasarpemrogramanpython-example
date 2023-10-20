@@ -1,5 +1,3 @@
-print("hello from calculate")
-
 note = "module calculate contains mathematic functions"
 
 def calc_hypotenuse(a, b):

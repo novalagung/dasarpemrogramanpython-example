@@ -1,16 +1,15 @@
 a = 10
 b = 15
 
-import calculate as calc
-from calculate import calc_hypotenuse as hptns, sqrt
+from calculate import *
 
-print(calc.note)
+print(note)
 
-res = hptns(a, b)
+res = calc_hypotenuse(a, b)
 print("hypotenuse:", res)
 
 res = sqrt(a**2 + b**2)
 print("hypotenuse:", res)
 
-res = sqrt(calc.pow(a) + calc.pow(b))
+res = sqrt(pow(a, 2) + pow(b, 2))
 print("hypotenuse:", res)

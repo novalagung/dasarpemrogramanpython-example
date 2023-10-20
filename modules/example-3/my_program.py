@@ -1,7 +1,9 @@
 a = 10
 b = 15
 
-from calculate import note, calc_hypotenuse, sqrt
+from calculate import note
+from calculate import calc_hypotenuse
+from calculate import sqrt
 
 print(note)
 
