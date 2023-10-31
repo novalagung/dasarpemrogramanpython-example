@@ -1,6 +1,6 @@
-# %% A.34. Python OOP ➜ Class Attribute & Method
+# %% A.34. Python OOP ➜ Instance Attribute vs. Class Attribute
 
-# %% ◉ Instancen attribute
+# %% ◉ Instance attribute
 
 class Pencil:
 

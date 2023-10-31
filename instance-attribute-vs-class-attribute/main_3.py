@@ -41,5 +41,3 @@ Book.note = "A book"
 print(f"Class Book note: {Book.note}")
 print(f"Object book1 note: {book1.note}")
 print(f"Object book2 note: {book2.note}")
-
-# %%
