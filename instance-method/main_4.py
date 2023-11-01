@@ -1,44 +1,25 @@
-# %% A.31.3. Pengaksesan method dari method lain
+# %% A.31.5. Pengaksesan method via class
 
-class Car:
+class FavoriteFood:
     def __init__(self):
         self.name = ""
-        self.manufacturer = ""
-        self.year = 0
-        self.description = ""
-    
-    def set_details(self, year, description):
-        self.year = year
-        self.description = description
 
-    def get_name(self):
-        return f"{self.manufacturer} {self.name}"
+    def print_name(self):
+        print(self.name)
 
-    def info(self):
-        print(f"Car name: {self.get_name()}")
-        print(f"Description: {self.description}")
-        print(f"Year released: {self.year}")
+    def get_name(self) -> str:
+        return self.name
 
-all_cars = []
+    def set_name(self, name):
+        self.name = name
 
-car1 = Car()
-car1.name = "M3 GTR"
-car1.manufacturer = "BMW"
-car1.set_details(2001, "Best car in NFS Most Wanted")
-all_cars.append(car1)
+food1 = FavoriteFood()
+food1.set_name("Pizza")
+food1.print_name()
+print(food1.get_name())
 
-car2 = Car()
-car2.name = "RX-8"
-car2.manufacturer = "Mazda"
-car2.set_details(2002, "Best car in NFS Underground 2")
-all_cars.append(car2)
+FavoriteFood.set_name(food1, "Burger")
+FavoriteFood.print_name(food1)
+print(food1.get_name())
 
-car3 = Car()
-car3.name = "Le Mans Quattro"
-car3.manufacturer = "Audi"
-car3.set_details(2003, "Best car in NFS Carbon")
-all_cars.append(car3)
-
-for c in all_cars:
-    c.info()
-    print()
+# %%

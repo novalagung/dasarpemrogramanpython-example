@@ -1,4 +1,5 @@
-# %% A.31.6. Argument method: **args** & **kwargs**
+
+# %% A.31.6. Argument method (positional, optional, keyword arg)
 
 class Car:
     def __init__(self):
@@ -7,16 +8,9 @@ class Car:
         self.year = 0
         self.description = ""
     
-    def set_details(self, **param):
-        for key in param:
-            if key == "name":
-                self.name = param[key]
-            if key == "manufacturer":
-                self.manufacturer = param[key]
-            if key == "year":
-                self.year = param[key]
-            if key == "description":
-                self.description = param[key]
+    def set_details(self, year = 2002, description = ""):
+        self.year = year
+        self.description = description
 
     def get_name(self):
         return f"{self.manufacturer} {self.name}"
@@ -26,8 +20,26 @@ class Car:
         print(f"Description: {self.description}")
         print(f"Year released: {self.year}")
 
-car4 = Car()
-car4.set_details(name="Chiron Sport", manufacturer="Bugatti")
-car4.set_details(year=2021)
-car4.set_details(description="Best car in NFS Unbound")
-car4.info()
+all_cars = []
+
+car1 = Car()
+car1.name = "M3 GTR"
+car1.manufacturer = "BMW"
+car1.set_details(2001, "Best car in NFS Most Wanted")
+all_cars.append(car1)
+
+car2 = Car()
+car2.name = "RX-8"
+car2.manufacturer = "Mazda"
+car2.set_details(description="Best car in NFS Underground 2")
+all_cars.append(car2)
+
+car3 = Car()
+car3.name = "Le Mans Quattro"
+car3.manufacturer = "Audi"
+car3.set_details(description="Best car in NFS Carbon", year=2003)
+all_cars.append(car3)
+
+for c in all_cars:
+    c.info()
+    print()

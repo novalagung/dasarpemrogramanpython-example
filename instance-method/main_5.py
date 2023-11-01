@@ -1,5 +1,4 @@
-
-# %% A.31.4. Argument method (positional, optional, keyword arg)
+# %% A.31.5. Pengaksesan method dari method lain
 
 class Car:
     def __init__(self):
@@ -8,7 +7,7 @@ class Car:
         self.year = 0
         self.description = ""
     
-    def set_details(self, year = 2002, description = ""):
+    def set_details(self, year, description):
         self.year = year
         self.description = description
 
@@ -31,13 +30,13 @@ all_cars.append(car1)
 car2 = Car()
 car2.name = "RX-8"
 car2.manufacturer = "Mazda"
-car2.set_details(description="Best car in NFS Underground 2")
+car2.set_details(2002, "Best car in NFS Underground 2")
 all_cars.append(car2)
 
 car3 = Car()
 car3.name = "Le Mans Quattro"
 car3.manufacturer = "Audi"
-car3.set_details(description="Best car in NFS Carbon", year=2003)
+car3.set_details(2003, "Best car in NFS Carbon")
 all_cars.append(car3)
 
 for c in all_cars:
