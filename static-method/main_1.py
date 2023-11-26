@@ -1,4 +1,4 @@
-# %% A.36.1. Static Method
+# %% A.37.1. Static Method
 
 class Person:
 

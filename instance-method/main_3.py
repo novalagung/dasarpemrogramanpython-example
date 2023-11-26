@@ -1,4 +1,4 @@
-# %% A.31.3. Naming convention method & parameter
+# %% A.32.3. Naming convention method & parameter
 
 class FavoriteFood:
     def __init__(self):

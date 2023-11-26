@@ -1,4 +1,4 @@
-# %% A.34. Python OOP ➜ Instance Attribute vs. Class Attribute
+# %% A.35. Python OOP ➜ Instance Attribute vs. Class Attribute
 
 # %% ◉ Instance attribute
 

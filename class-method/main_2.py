@@ -1,4 +1,4 @@
-# %% A.35.2. Class method parameter
+# %% A.36.2. Class method parameter
 
 class ClanHouse:
 

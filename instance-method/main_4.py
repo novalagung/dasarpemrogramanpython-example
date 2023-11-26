@@ -1,4 +1,4 @@
-# %% A.31.5. Pengaksesan method via class
+# %% A.32.5. Pengaksesan method via class
 
 class FavoriteFood:
     def __init__(self):
