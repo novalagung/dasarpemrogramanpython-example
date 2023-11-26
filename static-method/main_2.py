@@ -44,3 +44,4 @@ class Person:
 p5 = Person("Ezio Auditore da Firenze")
 p5.greet("hello", p5.name)
 Person.greet("hello")
+say_something("nice to meet you")
