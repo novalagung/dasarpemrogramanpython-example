@@ -1,4 +1,4 @@
-# %% Lambda parameter fungsi/closure/lambda
+# %% A.26.6. Lambda parameter fungsi/closure/lambda
 
 aggregate = lambda message, numbers, f: print(f"{message} is {f(numbers)}")
 

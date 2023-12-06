@@ -1,4 +1,4 @@
-# %% A.15.6. Operasi data dictionary
+# %% A.16.6. Operasi data dictionary
 
 # %% ◉ Pengaksesan item
 

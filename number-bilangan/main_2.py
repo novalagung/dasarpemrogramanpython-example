@@ -1,4 +1,4 @@
-# %% A.17.2. Hexadecimal, Octal, Binary
+# %% A.19.2. Hexadecimal, Octal, Binary
 
 angka = 140
 angka_heksadesimal = 0x8c

@@ -1,4 +1,4 @@
-# %% A.17.3. Floating point (float)
+# %% A.19.3. Floating point (float)
 
 angka_float = 3.
 print(f"angka float: {angka_float}")

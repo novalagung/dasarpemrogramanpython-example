@@ -1,4 +1,4 @@
-# %% ◉ Tahap 2: Decorator unique & reverse | Tahap 3: Decorator dipergunakan
+# %% A.38.4. Chaining decorator ➜ ◉ Tahap 2: Decorator unique & reverse | Tahap 3: Decorator dipergunakan
 
 import random
 

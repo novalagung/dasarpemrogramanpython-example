@@ -1,4 +1,4 @@
-# %%
+# %% A.25.3. Fungsi sebagai argument parameter
 
 def aggregate(message, numbers, f):
     res = f(numbers)

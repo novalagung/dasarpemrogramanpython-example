@@ -1,4 +1,4 @@
-# %%
+# %% A.33.2. Constructor dengan custom param
 
 class Mountain:
     def __init__(self, name, region, elevation):
@@ -16,5 +16,3 @@ mount_everest.info()
 
 mount_kilimanjaro = Mountain("Kilimanjaro", "Africa", 5895)
 mount_kilimanjaro.info()
-
-# %%

@@ -21,5 +21,3 @@ print(food1.get_name())
 FavoriteFood.set_name(food1, "Burger")
 FavoriteFood.print_name(food1)
 print(food1.get_name())
-
-# %%

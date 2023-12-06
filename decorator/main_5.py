@@ -1,4 +1,4 @@
-# %% A.37.5. *args & **kwargs pada decorator
+# %% A.38.5. *args & **kwargs pada decorator
 
 import random
 
@@ -36,5 +36,3 @@ def generate_random_unique_reverse_sorted_list(length):
     return generate_random_list(length)
 
 print(generate_random_unique_reverse_sorted_list(15))
-
-# %%

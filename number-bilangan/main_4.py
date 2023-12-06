@@ -1,4 +1,4 @@
-# %% A.17.4. Bilangan *complex*
+# %% A.19.4. Bilangan *complex*
 
 angka_complex = 120+3j
 
@@ -28,5 +28,3 @@ print(f"angka complex: {res}")
 
 res = (cmp1 + cmp2 + 23) / 0.5
 print(f"angka complex: {res}")
-
-# %%

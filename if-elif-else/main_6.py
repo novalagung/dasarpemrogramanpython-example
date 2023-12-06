@@ -1,4 +1,4 @@
-# A.8.6. Seleksi kondisi sebaris & ternary
+# %% A.8.6. Seleksi kondisi sebaris & ternary
 
 # %% example 1
 

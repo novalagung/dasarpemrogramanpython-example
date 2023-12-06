@@ -27,5 +27,3 @@ mount_kosciuszko.name = "Kosciuszko"
 mount_kosciuszko.region = "Australia"
 mount_kosciuszko.elevation = 2228
 mount_kosciuszko.info()
-
-# %%

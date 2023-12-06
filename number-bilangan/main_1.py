@@ -1,4 +1,4 @@
-# %% A.17.1. Integer
+# %% A.19.1. Integer
 
 angka1 = 24
 angka2 = 13
