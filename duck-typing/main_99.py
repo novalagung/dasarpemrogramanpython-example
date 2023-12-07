@@ -33,4 +33,5 @@ class NotReallyA2dObject:
 
 obj3 = NotReallyA2dObject()
 do_the_math(obj3)
+
 # %%
