@@ -2,18 +2,18 @@
 
 class Vehicle:
     note = "class to represent a car"
-    
+
     def __init__(self):
         self.name = "common vehicle"
         self.number_of_wheels = 4
-    
+
     def drive_sound(self):
         return "vroom vroooommmm"
 
 class ElectricCar(Vehicle):
     def info(self):
-        print(v2.name, "has", v2.number_of_wheels, "wheels. engine sound:", v2.drive_sound())
-        
+        print(self.name, "has", self.number_of_wheels, "wheels. engine sound:", self.drive_sound())
+
 v1 = Vehicle()
 print(v1.name, "has", v1.number_of_wheels, "wheels. engine sound:", v1.drive_sound())
 
