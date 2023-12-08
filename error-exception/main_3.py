@@ -1,14 +1,4 @@
-# %% syntax error
-
-prind("hello world")
-
-# %%
-
-res = 255 / 0
-print(res)
-# ZeroDivisionError: division by zero
-
-# %%
+# %% A.42.3. Throw exception
 
 print("this program prints number from 0 to N")
 n = int(input("enter the value of N: "))
@@ -18,5 +8,3 @@ if n <= 0:
 
 for d in range(0, n):
     print(d + 1)
-
-# %%
