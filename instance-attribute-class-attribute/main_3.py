@@ -1,4 +1,4 @@
-# %% A.35.3. Attribute mutability
+# %% A.36.3. Attribute mutability
 
 # %% ◉ Perubahan nilai instance attribute
 

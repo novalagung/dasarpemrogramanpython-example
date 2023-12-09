@@ -1,4 +1,4 @@
-# %% A.31.1. List comprehension → ◉ Contoh #4
+# %% A.32.1. List comprehension → ◉ Contoh #4
 
 list_x = ['a', 'b', 'c']
 list_y = ['1', '2', '3']

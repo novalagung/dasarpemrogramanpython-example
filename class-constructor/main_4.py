@@ -1,4 +1,4 @@
-# %% A.33.4. Constructor dengan return type `None`
+# %% A.34.4. Constructor dengan return type `None`
 
 class Mountain:
     def __init__(self, name = "", region = "", elevation = 0) -> None:

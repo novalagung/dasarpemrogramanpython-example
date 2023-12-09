@@ -1,4 +1,4 @@
-# %% A.39.1. Pengenalan Inheritance
+# %% A.40.1. Pengenalan Inheritance
 
 class Vehicle:
     note = "class to represent a car"

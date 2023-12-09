@@ -1,4 +1,4 @@
-# %% A.32.1. Penerapan Method
+# %% A.33.1. Penerapan Method
 
 class Car:
     def __init__(self):

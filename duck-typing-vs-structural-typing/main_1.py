@@ -1,4 +1,4 @@
-# %% A.41.1. Pengenalan duck typing
+# %% A.42.1. Pengenalan duck typing
 
 def do_the_math(obj):
     area = obj.calculate_area()

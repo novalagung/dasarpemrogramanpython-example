@@ -1,4 +1,4 @@
-# %% A.39.3. Constructor Overriding
+# %% A.40.3. Constructor Overriding
 
 class Vehicle:
     note = "class to represent a car"

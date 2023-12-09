@@ -1,4 +1,4 @@
-# %% A.31.3. Property ➜ Attribute
+# %% A.32.3. Property ➜ Attribute
 
 class Car:
     def __init__(self):

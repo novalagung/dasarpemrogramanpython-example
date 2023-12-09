@@ -1,4 +1,4 @@
-# %% A.39.6. Method Overriding
+# %% A.40.6. Method Overriding
 
 class Vehicle:
     note = "class to represent a car"

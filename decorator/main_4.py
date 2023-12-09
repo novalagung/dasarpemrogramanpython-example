@@ -1,4 +1,4 @@
-# %% A.38.4. Chaining decorator
+# %% A.39.4. Chaining decorator
 
 import random
 

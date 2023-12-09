@@ -1,4 +1,4 @@
-# %% A.38.4. Chaining decorator ➜ ◉ Tahap 1: Program awal
+# %% A.39.4. Chaining decorator ➜ ◉ Tahap 1: Program awal
 
 import random
 

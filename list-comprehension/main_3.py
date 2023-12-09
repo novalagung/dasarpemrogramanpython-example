@@ -1,4 +1,4 @@
-# %% A.31.1. List comprehension → ◉ Contoh #3
+# %% A.32.1. List comprehension → ◉ Contoh #3
 
 seq = []
 for i in range(1, 10):

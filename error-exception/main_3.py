@@ -1,4 +1,4 @@
-# %% A.42.3. Throw exception
+# %% A.43.3. Throw exception
 
 print("this program prints number from 0 to N")
 n = int(input("enter the value of N: "))

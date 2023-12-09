@@ -1,4 +1,4 @@
-# %% A.37.2. Fungsi `staticmethod()`
+# %% A.38.2. Fungsi `staticmethod()`
 
 def say_hello():
     print("hello")

@@ -1,4 +1,4 @@
-# %% A.39.7. Aturan overriding
+# %% A.40.7. Aturan overriding
 
 class Vehicle:
     note = "class to represent a car"

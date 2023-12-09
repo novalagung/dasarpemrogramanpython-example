@@ -1,4 +1,4 @@
-# %% A.31.6. Class turunan `object`
+# %% A.32.6. Class turunan `object`
 
 class Car:
     def __init__(self):
