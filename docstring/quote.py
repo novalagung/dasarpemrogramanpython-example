@@ -1,28 +1,44 @@
-today_quote = "never let anyone live in your head rent free"
-""" showing todays quote """
+quotes = [
+    "never let anyone live in your head rent free",
+    "if others can do it, then why should I?",
+    "\n".join([
+        "I'm sick of following my dreams, man.",
+        "I'm just going to ask where they're going and hook up with 'em later."
+    ]),
+]
+
+from random import randint
 
 def print_random_quote():
     """
-    print one random quote,
-    nothing special
+    function `print_random_quote()`:
+        print one random quote,
+        so nothing special
     """
-    print("I'm sick of following my dreams, man. I'm just going to ask where they're going and hook up with 'em later")
+
+    i = randint(0, len(quotes)-1)
+    print(quotes[i])
 
 class Quote:
     """
-    class Quote
-        Description:
-            A class Quote represent a quote.
-            It has only one method called print_quote(),
-            and it does nothing special except printing a quote.
-            
-    method print_quote()
-        Description: Responsible to print the quote
+    class `Quote`:
+        A class Quote represent a quote.
+        It has the following two attributes:
+            - class attribute `note`
+            - instance method `print_quote()`
     """
-    
-    note = ""
-    """ print the quote """
-    
-    def print_quote(self):
-        """ print the quote """
-        print("if others can do it, then why should I?")
+
+    note = "A class to represent quote"
+    """
+        instance method `print_quote()`:
+            Responsible to print specific quote by index
+    """ 
+
+    @classmethod
+    def print_quote(cls, i):
+        """
+        instance method `print_quote()`:
+            Responsible to print specific quote by index
+        """
+
+        print(quotes[i])
