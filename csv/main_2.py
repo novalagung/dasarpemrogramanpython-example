@@ -17,12 +17,6 @@ def write_data(name, email, phone):
             'phone': phone
         })
 
-def read_data():
-    with open(filename, 'r') as csvfile:
-        reader = csv.DictReader(csvfile)
-        for index, row in enumerate(reader):
-            print(" ->", f"(row {index + 1})", row['name'], row['email'], row['phone'])
-
 def control_flow():
     while True:
         print("Choose mode:")
@@ -38,11 +32,13 @@ def control_flow():
             phone = input("Phone: ")
             write_data(name, email, phone)
         elif mode == '2':
-            read_data()
+            pass # to be replaced
         elif mode == '3':
-            pass
-        else:
+            pass # to be replaced
+        elif mode == '4':
             break
+        else:
+            print('Invalid mode')
 
 def main():
     prepare_csv()

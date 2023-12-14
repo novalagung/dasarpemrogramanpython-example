@@ -1,22 +1,3 @@
-import csv
-
-filename = 'data.csv'
-fieldnames = ['name', 'email', 'phone']
-
-def prepare_csv():
-    with open(filename, 'w', newline='') as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
-
-def write_data(name, email, phone):
-    with open(filename, 'a', newline='') as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writerow({
-            'name': name,
-            'email': email,
-            'phone': phone
-        })
-
 def control_flow():
     while True:
         print("Choose mode:")
@@ -27,19 +8,17 @@ def control_flow():
 
         mode = input('Choice (1/2/3/4): ')
         if mode == '1':
-            name = input("Name: ")
-            email = input("Email: ")
-            phone = input("Phone: ")
-            write_data(name, email, phone)
+            pass # to be replaced
         elif mode == '2':
-            pass
+            pass # to be replaced
         elif mode == '3':
-            pass
-        else:
+            pass # to be replaced
+        elif mode == '4':
             break
+        else:
+            print('Invalid mode')
 
 def main():
-    prepare_csv()
     control_flow()
 
 if __name__ == '__main__':

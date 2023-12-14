@@ -23,23 +23,6 @@ def read_data():
         for index, row in enumerate(reader):
             print(" ->", f"(row {index + 1})", row['name'], row['email'], row['phone'])
 
-def delete_data(row_index):
-    with open(filename, 'r') as csvfile:
-        reader = csv.DictReader(csvfile)
-        rows = list(reader)
-
-    with open(filename, 'w', newline='') as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-        writer.writeheader()
-
-        for index, row in enumerate(rows):
-            if index != row_index:
-                writer.writerow({
-                    'name': row['name'],
-                    'email': row['email'],
-                    'phone': row['phone']
-                })
-
 def control_flow():
     while True:
         print("Choose mode:")
@@ -57,10 +40,11 @@ def control_flow():
         elif mode == '2':
             read_data()
         elif mode == '3':
-            row_index = int(input("Row index: "))
-            delete_data(row_index)
-        else:
+            pass # to be replaced
+        elif mode == '4':
             break
+        else:
+            print('Invalid mode')
 
 def main():
     prepare_csv()

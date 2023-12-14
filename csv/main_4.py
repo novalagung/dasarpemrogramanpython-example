@@ -1,33 +1,44 @@
 import csv
 
+filename = 'data.csv'
+fieldnames = ['name', 'email', 'phone']
+
 def prepare_csv():
-    with open('data.csv', 'w', newline='') as f:
-        writer = csv.writer(f)
-        writer.writerow(['name', 'email', 'phone'])
+    with open(filename, 'w', newline='') as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
 
 def write_data(name, email, phone):
-    with open('data.csv', 'a', newline='') as f:
-        writer = csv.writer(f)
-        writer.writerow([name, email, phone])
+    with open(filename, 'a', newline='') as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writerow({
+            'name': name,
+            'email': email,
+            'phone': phone
+        })
 
 def read_data():
-    with open('data.csv', 'r') as csvfile:
-        reader = csv.reader(csvfile)
+    with open(filename, 'r') as csvfile:
+        reader = csv.DictReader(csvfile)
         for index, row in enumerate(reader):
-            if index == 0:
-                continue
-            print(" ->", f"(row {index})", row[0], row[1], row[2])
+            print(" ->", f"(row {index + 1})", row['name'], row['email'], row['phone'])
 
 def delete_data(row_index):
-    with open('data.csv', 'r') as csvfile:
-        reader = csv.reader(csvfile)
+    with open(filename, 'r') as csvfile:
+        reader = csv.DictReader(csvfile)
         rows = list(reader)
 
-    with open('data.csv', 'w', newline='') as csvfile:
-        writer = csv.writer(csvfile)
+    with open(filename, 'w', newline='') as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer.writeheader()
+
         for index, row in enumerate(rows):
-            if index != row_index:
-                writer.writerow([row[0], row[1], row[2]])
+            if index != (row_index - 1):
+                writer.writerow({
+                    'name': row['name'],
+                    'email': row['email'],
+                    'phone': row['phone']
+                })
 
 def control_flow():
     while True:
@@ -48,8 +59,10 @@ def control_flow():
         elif mode == '3':
             row_index = int(input("Row index: "))
             delete_data(row_index)
-        else:
+        elif mode == '4':
             break
+        else:
+            print('Invalid mode')
 
 def main():
     prepare_csv()
