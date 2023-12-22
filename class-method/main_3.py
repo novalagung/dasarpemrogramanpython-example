@@ -1,4 +1,4 @@
-# %% A.37.3. Pengaksesan class method via Instance Object
+# %% A.38.3. Pengaksesan class method via Instance Object
 
 class ClanHouse:
 

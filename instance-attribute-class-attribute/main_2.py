@@ -1,4 +1,4 @@
-# %% A.36.2. Attribute lookup
+# %% A.37.2. Attribute lookup
 
 class Person:
     name = "A person"

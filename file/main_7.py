@@ -1,4 +1,4 @@
-# %% A.46.7. Mengosongkan isi file
+# %% A.47.7. Mengosongkan isi file
 
 with open("file.txt", "w", encoding="utf-8") as f:
     pass

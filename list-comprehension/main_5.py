@@ -1,4 +1,4 @@
-# %% A.32.1. List comprehension → ◉ Contoh #5
+# %% A.13.1. List comprehension → ◉ Contoh #5
 
 matrix = [
     [1, 2, 3, 4],

@@ -1,4 +1,4 @@
-# %% A.32.5. Pengecekan instance object
+# %% A.33.5. Pengecekan instance object
 
 class Car:
     def __init__(self):

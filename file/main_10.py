@@ -1,4 +1,4 @@
-# %% A.46.10. Membuat folder baru
+# %% A.47.10. Membuat folder baru
 
 import os
 

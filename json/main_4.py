@@ -1,4 +1,4 @@
-# %% A.49.1. Implementasi JSON di Python
+# A.50.1. Implementasi JSON di Python
 
 # %% ◉ Membaca JSON file
 

@@ -1,4 +1,4 @@
-# %% A.40.8. Nested inheritance
+# %% A.41.8. Nested inheritance
 
 class Vehicle:
     note = "class to represent a car"

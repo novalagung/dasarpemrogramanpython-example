@@ -1,4 +1,4 @@
-# %% A.33.7. Argument method: **args** & **kwargs**
+# %% A.34.7. Argument method: **args** & **kwargs**
 
 class Car:
     def __init__(self):

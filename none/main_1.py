@@ -1,4 +1,4 @@
-# %% A.30.1. Pengenalan `None`
+# %% A.31.1. Pengenalan `None`
 
 def inspec_data(data):
     if data == None:

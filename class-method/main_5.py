@@ -1,4 +1,4 @@
-# %% A.37.4. Pengaksesan class attribute via `cls`
+# %% A.38.4. Pengaksesan class attribute via `cls`
 
 class ClanHouse:
 

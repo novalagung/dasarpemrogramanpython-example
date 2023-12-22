@@ -1,4 +1,4 @@
-# %% A.31.3. Pemanfaatan teknik packing pada argument parameter
+# %% A.32.3. Pemanfaatan teknik packing pada argument parameter
 
 def show_biography(id, name, occupation, gender):
     print(f"id: {id}")

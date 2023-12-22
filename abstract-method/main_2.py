@@ -1,4 +1,4 @@
-# %% A.41.2. Praktek abstract method
+# %% A.42.2. Praktek abstract method
 
 from abc import ABC, abstractmethod
 

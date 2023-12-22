@@ -1,4 +1,4 @@
-# %% A.40.10. Multiple inheritance
+# %% A.41.10. Multiple inheritance
 
 class Vehicle:
     note = "class to represent a car"

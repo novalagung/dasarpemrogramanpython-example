@@ -1,4 +1,4 @@
-# %% A.40.4. Fungsi `super()`
+# %% A.41.4. Fungsi `super()`
 
 class Vehicle:
     note = "class to represent a car"

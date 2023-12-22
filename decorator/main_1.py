@@ -1,4 +1,4 @@
-# %% A.39.2. Custom decorator
+# %% A.40.2. Custom decorator
 
 def inspeksi(func):
     def inner_func():

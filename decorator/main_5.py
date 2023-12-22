@@ -1,4 +1,4 @@
-# %% A.39.5. *args & **kwargs pada decorator
+# %% A.40.5. *args & **kwargs pada decorator
 
 import random
 
