@@ -1,4 +1,4 @@
-# %% basic date, time, datetime
+# %% A.51.1. Pengenalan `date`, `time`, dan `datetime`
 
 from datetime import date, time, datetime
 
@@ -25,7 +25,7 @@ print(" ➜ minute:", data_datetime.minute)
 print(" ➜ second:", data_datetime.second)
 print(" ➜ timezone:", data_datetime.tzinfo)
 
-# %% combining date & time
+# %% ◉ Combining `date` & `time`
 
 data_datetime = datetime.combine(data_date, data_time)
 print("datetime:", data_datetime)
@@ -37,10 +37,13 @@ print(" ➜ minute:", data_datetime.minute)
 print(" ➜ second:", data_datetime.second)
 print(" ➜ timezone:", data_datetime.tzinfo)
 
-# %% create today's date
+# %% Mengambil datetime hari ini / sekarang
 
-data_now = datetime.now()
-print("now:", data_now)
+data1 = datetime.now()
+print("sekarang (datetime):", data1)
 
-data_today = datetime.today()
-print("today:", data_today)
+data2 = datetime.today()
+print("sekarang (datetime):", data2)
+
+data2 = date.today()
+print("sekarang (date):", data2)
