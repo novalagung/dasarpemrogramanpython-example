@@ -1,4 +1,4 @@
-# %% A.47.3. Menulis file
+# %% A.48.3. Menulis file
 
 with open("file.txt", "w", encoding="utf-8") as f:
     f.write("hello")

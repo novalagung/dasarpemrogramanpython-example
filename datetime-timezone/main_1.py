@@ -1,4 +1,4 @@
-# %% A.51.1. Pengenalan `date`, `time`, dan `datetime`
+# %% A.52.1. Pengenalan `date`, `time`, dan `datetime`
 
 from datetime import date, time, datetime
 

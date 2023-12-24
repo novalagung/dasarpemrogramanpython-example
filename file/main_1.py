@@ -1,4 +1,4 @@
-# %% A.47.1. Membuka stream file
+# %% A.48.1. Membuka stream file
 
 f = open("file.txt", "w", encoding="utf-8")
 

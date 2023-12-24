@@ -1,4 +1,4 @@
-# A.53.1. Pengenalan pattern matching
+# A.43.1. Pengenalan pattern matching
 
 command = input("Enter command: ")
 

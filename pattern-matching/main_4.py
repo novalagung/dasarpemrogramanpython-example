@@ -1,4 +1,4 @@
-# A.52.4. Pencocokan pola tipe data lainnya
+# A.43.4. Pencocokan pola tipe data lainnya
 
 # %% ◉ Pencocokan pola data tuple
 

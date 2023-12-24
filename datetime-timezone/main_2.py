@@ -1,4 +1,4 @@
-# %% A.51.2. Pengenalan timezone (`tz`)
+# %% A.52.2. Pengenalan timezone (`tz`)
 
 from dateutil import tz
 from datetime import date, time, datetime

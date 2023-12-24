@@ -1,4 +1,4 @@
-# A.52.1. Parsing `datetime`
+# A.53.1. Parsing `datetime`
 
 # %% Via `datetime.strptime()` dan kode format
 

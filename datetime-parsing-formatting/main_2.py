@@ -1,4 +1,4 @@
-# A.52.2. Formatting `datetime`
+# A.53.2. Formatting `datetime`
 
 # %% ◉ Method `datetime.strftime()` dan kode format
 
