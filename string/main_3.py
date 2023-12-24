@@ -1,4 +1,4 @@
-# %% A.17.4. String formatting
+# %% A.17.3. String formatting
 
 text = f"this is also a string in python"
 print(text)

@@ -1,4 +1,4 @@
-# %% A.17.6. Operasi sequence pada string
+# %% A.17.5. Operasi sequence pada string
 
 # %% ◉ Mengecek lebar karakter string
 

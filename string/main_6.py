@@ -1,4 +1,4 @@
-# %% A.17.7. Operasi character & case
+# %% A.17.6. Operasi character & case
 
 # %%
 

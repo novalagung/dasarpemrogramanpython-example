@@ -1,4 +1,4 @@
-# %% A.17.8. Operasi pencarian string & substring
+# %% A.17.7. Operasi pencarian string & substring
 
 # %% ◉ Pengecekan string menggunakan keyword in
 

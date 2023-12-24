@@ -1,4 +1,4 @@
-# %% A.17.5. Penggabungan string (concatenation)
+# %% A.17.4. Penggabungan string (concatenation)
 
 text = "hello " "python"
 print(text)
