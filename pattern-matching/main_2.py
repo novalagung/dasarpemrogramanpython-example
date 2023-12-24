@@ -1,4 +1,4 @@
-# %% A.43.2. Pencocokan pola data sequence
+# %% A.44.2. Pencocokan pola data sequence
 
 command = input("Enter command: ")
 inputs = command.split(' ')
