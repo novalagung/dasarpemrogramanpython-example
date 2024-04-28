@@ -1,4 +1,4 @@
-# %% A.41.1. Pengenalan abstract method
+# %% A.42.1. Pengenalan abstract method
 
 class Object2D:
     def calculate_area(self):

@@ -1,4 +1,4 @@
-# %% A.34.1. Pengenalan construktor
+# %% A.35.1. Pengenalan construktor
 
 class Mountain:
     pass

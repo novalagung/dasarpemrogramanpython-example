@@ -1,4 +1,4 @@
-# %% A.33.5. Pengaksesan method dari method lain
+# %% A.34.5. Pengaksesan method dari method lain
 
 class Car:
     def __init__(self):

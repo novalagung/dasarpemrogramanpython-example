@@ -1,4 +1,4 @@
-# %% A.44.1. Keyword `try` + `except`
+# %% A.46.1. Keyword `try` + `except`
 
 def calculate_banana_distribution(total_banana, total_people):
     res = total_banana / total_people

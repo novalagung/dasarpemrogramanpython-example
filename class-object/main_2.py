@@ -1,4 +1,4 @@
-# %% A.32.2. Instance object
+# %% A.33.2. Instance object
 
 class Person:
     def __init__(self):

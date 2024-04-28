@@ -1,4 +1,4 @@
-# %% A.40.9. Special name ➜ class attribute `__mro__`
+# %% A.41.9. Special name ➜ class attribute `__mro__`
 
 class Vehicle:
     note = "class to represent a car"

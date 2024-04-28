@@ -1,5 +1,4 @@
-
-# %% A.33.6. Argument method (positional, optional, keyword arg)
+# %% A.34.6. Argument method (positional, optional, keyword arg)
 
 class Car:
     def __init__(self):

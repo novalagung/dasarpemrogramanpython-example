@@ -1,4 +1,4 @@
-# %% A.46.5. Membaca file
+# %% A.48.5. Membaca file
 
 with open("file.txt", "r", encoding="utf-8") as f:
     print(f"line 1: {f.readline()}")

@@ -1,4 +1,4 @@
-# %% A.37.1. Class method
+# %% A.38.1. Class method
 
 class ClanHouse:
 

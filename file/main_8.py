@@ -1,4 +1,4 @@
-# %% A.46.8. Menghapus file
+# %% A.48.8. Menghapus file
 
 import os
 

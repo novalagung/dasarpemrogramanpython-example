@@ -1,4 +1,4 @@
-# %% A.46.11. Menampilkan isi folder
+# %% A.48.11. Menampilkan isi folder
 
 import os
 

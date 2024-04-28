@@ -1,4 +1,4 @@
-# %% A.34.3. Constructor overloading
+# %% A.35.3. Constructor overloading
 
 class Mountain:
     def __init__(self, name = "", region = "", elevation = 0):

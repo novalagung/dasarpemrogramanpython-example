@@ -1,4 +1,4 @@
-# %% A.33.2. Variabel `self`
+# %% A.34.2. Variabel `self`
 
 class Car:
     def __init__(self):

@@ -1,4 +1,4 @@
-# %% A.43.4. Linter error / warning
+# %% A.45.4. Linter error / warning
 
 def sum(a: int, b: int):
     return a + b

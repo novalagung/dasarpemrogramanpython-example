@@ -1,4 +1,4 @@
-# %% A.34.2. Constructor dengan custom param
+# %% A.35.2. Constructor dengan custom param
 
 class Mountain:
     def __init__(self, name, region, elevation):
