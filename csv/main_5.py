@@ -48,10 +48,8 @@ def control_flow():
         elif mode == '3':
             row_index = int(input("Row index: "))
             delete_data(row_index)
-        elif mode == '4':
-            break
         else:
-            print('Invalid mode')
+            break
 
 def main():
     prepare_csv()
