@@ -1,4 +1,4 @@
-# %% A.46.3. Keyword `try` + `except` + `else`
+# %% A.47.3. Keyword `try` + `except` + `else`
 
 try:
     total_banana = int(input("total banana: "))

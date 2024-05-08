@@ -1,4 +1,4 @@
-# %% A.55.1. Enum / Enumeration
+# %% A.56.1. Enum / Enumeration
 
 from enum import Enum
 class City(Enum):
@@ -9,7 +9,7 @@ class City(Enum):
 
 print(list(City))
 
-# %% A.55.4. Nilai property enum
+# %% A.56.4. Nilai property enum
 
 city1 = City.YOGYAKARTA
 print(city1)
@@ -26,7 +26,7 @@ print(city3)
 print(f"name {city3.name}")
 print(f"value {city3.value}")
 
-# %% A.55.3. Notasi penulisan pengaksesan enum property
+# %% A.56.3. Notasi penulisan pengaksesan enum property
 
 from enum import StrEnum
 class Color(StrEnum):
@@ -53,7 +53,7 @@ size1 = Size.M
 size2 = Size.XL
 print(size1, size2)
 
-# %% A.55.5. Pengecekan nilai enum
+# %% A.56.5. Pengecekan nilai enum
 
 def say_anything(c):
     if c is City.MALANG:
@@ -68,7 +68,7 @@ def say_anything(c):
 city1 = City.YOGYAKARTA
 say_anything(city1)
 
-# %% A.55.6. Perulangan enum
+# %% A.56.6. Perulangan enum
 
 for c in City:
     print(c, c.name, c.value)

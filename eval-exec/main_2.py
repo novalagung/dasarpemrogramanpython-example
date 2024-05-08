@@ -1,4 +1,4 @@
-# %% A.56.2. Fungsi `exec()`
+# %% A.57.2. Fungsi `exec()`
 
 a = 10
 b = 5

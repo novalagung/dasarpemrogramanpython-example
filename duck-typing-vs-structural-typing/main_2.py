@@ -1,4 +1,3 @@
-
 # %% ◉ Skenario 1: Instance method
 
 from abc import ABC, abstractmethod

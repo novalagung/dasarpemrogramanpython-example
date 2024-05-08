@@ -1,4 +1,4 @@
-# %% A.45.2. Exception
+# %% A.46.2. Exception
 
 n1 = int(input("Enter the 1st number: "))
 n2 = int(input("Enter the 2nd number: "))

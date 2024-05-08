@@ -1,4 +1,4 @@
-# %% A.48.9. Mengecek apakah file ada
+# %% A.49.9. Mengecek apakah file ada
 
 import os.path
 

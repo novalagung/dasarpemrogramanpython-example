@@ -1,4 +1,4 @@
-# %% A.56.3. Fungsi `compile()`
+# %% A.57.3. Fungsi `compile()`
 
 a = 10
 b = 5

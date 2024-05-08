@@ -1,4 +1,4 @@
-# A.51.1. Implementasi JSON di Python
+# A.52.1. Implementasi JSON di Python
 
 # %% ◉ Decode JSON string ke data Python
 

@@ -1,4 +1,4 @@
-# %% A.54.1. Keyword `del`
+# %% A.55.1. Keyword `del`
 
 name = "Noval Agung"
 print(name)

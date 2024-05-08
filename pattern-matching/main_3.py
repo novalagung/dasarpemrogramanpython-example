@@ -1,4 +1,4 @@
-# A.44.3. Pencocokan pola + seleksi kondisi
+# A.45.3. Pencocokan pola + seleksi kondisi
 
 # %% ◉ Pencocokan pola + logika OR
 

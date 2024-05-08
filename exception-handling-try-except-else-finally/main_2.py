@@ -1,4 +1,4 @@
-# %% A.46.2. Explicit exception handler
+# %% A.47.2. Explicit exception handler
 
 try:
     total_banana = int(input("total banana: "))
