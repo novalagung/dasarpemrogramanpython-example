@@ -1,4 +1,4 @@
-# %% A.57.1. Apa itu iterable?
+# %% A.58.1. Apa itu iterable?
 
 condition = "weteng luwe"
 for c in condition:

@@ -1,4 +1,4 @@
-# %% A.57.3. Custom iterator
+# %% A.58.3. Custom iterator
 
 from collections.abc import Iterator
 

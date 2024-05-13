@@ -1,4 +1,4 @@
-# %% A.57.2. Apa itu iterator?
+# %% A.58.2. Apa itu iterator?
 
 condition = "weteng luwe"
 for c in iter(condition):
