@@ -1,16 +1,17 @@
-# A.6.6. Tipe data dictionary
+# A.6.6. Tipe data tuple
 
-# %%
-profile_1 = {
-  "name": "Noval",
-  "is_male": False,
-  "age": 16,
-  "hobbies": ["gaming", "learning"]
-}
+# %% tuple with int as element's data type
+tuple_1 = (2, 3, 4)
+print(tuple_1)
 
-print("name: %s" % (profile_1["name"]))
-print("hobbies: %s" % (profile_1["hobbies"]))
+# %% tuple with str as element's data type
+tuple_2 = ("numenor", "valinor")
+print(tuple_2)
 
-# %%
-profile_1 = { "name": "Noval", "hobbies": ["gaming", "learning"] }
-print(profile_1)
+# %% tuple with various data type in the element
+tuple_3 = (24, False, "Hello Python")
+print(tuple_3)
+
+# %% acces item by index
+tuple_1 = (2, 3, 4)
+print(tuple_1[2])
