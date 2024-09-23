@@ -2,14 +2,14 @@
 
 max = int(input("jumlah bintang: "))
 
-outerLoop = True
+outer_loop = True
 for i in range(max):
-    if not outerLoop: 
+    if not outer_loop: 
         break
 
     for j in range(i + 1):
         print("*", end=" ")
         if j >= 7:
-            outerLoop = False
+            outer_loop = False
             break
     print()
