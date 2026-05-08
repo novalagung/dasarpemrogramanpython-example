@@ -66,7 +66,7 @@ class Point:
         self.x = x
         self.y = y
     def info(self):
-        return f"({x},{y})"
+        return f"({self.x},{self.y})"
 
 import random
 
