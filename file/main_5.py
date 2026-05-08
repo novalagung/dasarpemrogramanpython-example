@@ -1,4 +1,10 @@
-# %% A.49.5. Membaca file
+# %% A.50.5. Membaca file
+
+try:
+    with open("file.txt", "a", encoding="utf-8") as f:
+        print(f.readline())
+except Exception as err:
+    print(type(err).__name__, err)
 
 with open("file.txt", "r", encoding="utf-8") as f:
     print(f"line 1: {f.readline()}")
