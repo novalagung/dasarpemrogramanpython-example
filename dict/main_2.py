@@ -9,7 +9,7 @@ profile = {
 print(profile)
 
 profile = dict(
-    set="id",
+    identifier="set",
     name="john wick",
     hobbies=["playing with pencil"],
     is_female=False,
@@ -17,7 +17,7 @@ profile = dict(
 print(profile)
 
 profile = dict([
-    ('set', "id"),
+    ('identifier', "set"),
     ('name', "john wick"),
     ('hobbies', ["playing with pencil"]),
     ('is_female', False)

@@ -18,4 +18,4 @@ numbers2 = numbers1
 numbers2.append(9)
 
 print("numbers1", numbers1, id(numbers1), sys.getsizeof(numbers1))
-print("numbers2", numbers1, id(numbers2), sys.getsizeof(numbers2))
+print("numbers2", numbers2, id(numbers2), sys.getsizeof(numbers2))

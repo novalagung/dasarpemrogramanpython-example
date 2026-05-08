@@ -122,11 +122,11 @@ print("res_3:", res_3)
 hobbits = {'frodo', 'sam', 'merry', 'pippin'}
 dunedain = {'aragorn'}
 elf = {'legolas'}
-dwarf = {'gimly'}
+dwarf = {'gimli'}
 human = {'boromir'}
 maiar = {'gandalf'}
 
-fellowship_1 = hobbits.union(dunedain).union(dunedain).union(elf).union(dwarf).union(human).union(maiar)
+fellowship_1 = hobbits.union(dunedain).union(elf).union(dwarf).union(human).union(maiar)
 print("fellowship_1:", fellowship_1)
 
 fellowship_2 = set()
